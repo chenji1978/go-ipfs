@@ -21,7 +21,7 @@ require (
 	github.com/ipfs/go-cidutil v0.0.2
 	github.com/ipfs/go-datastore v0.4.4
 	github.com/ipfs/go-detect-race v0.0.1
-	github.com/ipfs/go-ds-badger v0.2.3
+	github.com/ipfs/go-ds-badger v0.2.4
 	github.com/ipfs/go-ds-flatfs v0.4.1
 	github.com/ipfs/go-ds-leveldb v0.4.2
 	github.com/ipfs/go-ds-measure v0.1.0
@@ -42,7 +42,7 @@ require (
 	github.com/ipfs/go-ipfs-routing v0.1.0
 	github.com/ipfs/go-ipfs-util v0.0.1
 	github.com/ipfs/go-ipld-cbor v0.0.4
-	github.com/ipfs/go-ipld-format v0.0.2
+	github.com/ipfs/go-ipld-format v0.2.0
 	github.com/ipfs/go-ipld-git v0.0.3
 	github.com/ipfs/go-ipns v0.0.2
 	github.com/ipfs/go-log v1.0.3
@@ -54,6 +54,7 @@ require (
 	github.com/ipfs/go-unixfs v0.2.4
 	github.com/ipfs/go-verifcid v0.0.1
 	github.com/ipfs/interface-go-ipfs-core v0.2.6
+	github.com/ipld/go-car v0.1.0
 	github.com/jbenet/go-is-domain v1.0.3
 	github.com/jbenet/go-random v0.0.0-20190219211222-123a90aedc0c
 	github.com/jbenet/go-temp-err-catcher v0.1.0
@@ -65,14 +66,14 @@ require (
 	github.com/libp2p/go-libp2p-core v0.5.1
 	github.com/libp2p/go-libp2p-discovery v0.3.0
 	github.com/libp2p/go-libp2p-http v0.1.5
-	github.com/libp2p/go-libp2p-kad-dht v0.6.1
+	github.com/libp2p/go-libp2p-kad-dht v0.6.2
 	github.com/libp2p/go-libp2p-kbucket v0.3.3
 	github.com/libp2p/go-libp2p-loggables v0.1.0
 	github.com/libp2p/go-libp2p-mplex v0.2.3
 	github.com/libp2p/go-libp2p-peerstore v0.2.3
 	github.com/libp2p/go-libp2p-pubsub v0.2.6
 	github.com/libp2p/go-libp2p-pubsub-router v0.2.1
-	github.com/libp2p/go-libp2p-quic-transport v0.2.4-0.20200228032821-6d8b0e775c52
+	github.com/libp2p/go-libp2p-quic-transport v0.3.3
 	github.com/libp2p/go-libp2p-record v0.1.2
 	github.com/libp2p/go-libp2p-routing-helpers v0.2.0
 	github.com/libp2p/go-libp2p-secio v0.2.2
@@ -100,7 +101,7 @@ require (
 	github.com/whyrusleeping/tar-utils v0.0.0-20180509141711-8c6c8ba81d5c
 	go.uber.org/fx v1.11.0
 	golang.org/x/crypto v0.0.0-20200406173513-056763e48d71
-	golang.org/x/sys v0.0.0-20200406155108-e3b113bbe6a4
+	golang.org/x/sys v0.0.0-20200408040146-ea54a3c99b9b
 	gopkg.in/cheggaaa/pb.v1 v1.0.28
 )
 
