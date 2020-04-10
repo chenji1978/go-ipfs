@@ -18,8 +18,6 @@ func constructDHTRouting(mode dht.ModeOpt) func(ctx context.Context, host host.H
 	return func(ctx context.Context, host host.Host, dstore datastore.Batching, validator record.Validator) (routing.Routing, error) {
 		return dual.New(
 			ctx, host,
-			dht.RoutingTableFilter(dht.PublicRoutingTableFilter),
-			dht.QueryFilter(dht.PublicQueryFilter),
 			dht.Concurrency(10),
 			dht.Mode(mode),
 			dht.Datastore(dstore),
